@@ -1,3 +1,3 @@
 # Landing-Page 
 
-[Landing Page de NutriPlan](https://nutriplan-landing.netlify.app/)
+[Landing Page de NutriPlan](https://nutriplan-landing.netlify.app/) 
