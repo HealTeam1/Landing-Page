@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriPlan - Página de Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" aria-label="Inicio">
+                <img src="img/logo.png" alt="Logo NutriPlan" class="logo" loading="lazy">
+            </a>
+            <div class="navbar">
+                <a href="#inicio" data-key="home" aria-label="Ir a la sección Inicio">Inicio</a>
+                <a href="#about-us" data-key="aboutus" aria-label="Ir a la sección Sobre Nosotros">Sobre Nosotros</a>
+                <a href="#contactanos" data-key="contactus" aria-label="Ir a la sección Contáctanos">Contáctanos</a>
+                <a href="#services" class="btn_front" data-key="letsgo" aria-label="Comenzar con NutriPlan">Comenzar</a>
+            </div>
+            <div class="language-switcher">
+                <button onclick="changeLanguage('es')" aria-label="Cambiar idioma a español" class="lang-btn">ES</button>
+                <button onclick="changeLanguage('en')" aria-label="Cambiar idioma a inglés" class="lang-btn">EN</button>
+            </div>            
+        </div>
+    </header>
+
+    <section id="inicio" class="welcome-section">
+        <div class="welcome-container">
+            <div class="welcome-text">
+                <h1 data-key="welcome">Bienvenido a NutriPlan</h1>
+                <p data-key="find">Encuentra el plan de nutrición perfecto para ti o genera ingresos compartiendo tus planes nutricionales.</p>
+                <a href="#contactanos" class="welcome-btn" data-key="more" aria-label="Saber más sobre NutriPlan">Saber Más</a>
+            </div>
+            <div class="welcome-image">
+                <img src="img/nutricion1.gif" alt="Imagen de una comida saludable" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="offer-section">
+        <div class="offer-container">
+            <h2 class="offer-title" data-key="ofer">¿Qué ofrecemos?</h2>
+            <div class="offer-content">
+                <div class="offer-description">
+                    <p data-key="give">Te damos la posibilidad de escoger entre una gran variedad de planes nutricionales que se adapten a tus necesidades, o generar ingresos ayudando a otros a alcanzar sus metas.</p>
+                    <a href="#contactanos" class="offer-btn" data-key="more" aria-label="Conocer más sobre nuestra oferta">Saber Más</a>
+                </div>
+                <div class="offer-features">
+                    <div class="feature-item">
+                        <img src="img/rayo-rapido.webp" alt="Icono de plan rápido" aria-label="Planes rápidos" loading="lazy">
+                        <p data-key="fast">Rápido</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/salud.png" alt="Icono de plan saludable" aria-label="Planes saludables" loading="lazy">
+                        <p data-key="easy">Saludable</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="img/seguro.png" alt="Icono de plan seguro" aria-label="Planes seguros" loading="lazy">
+                        <p data-key="secure">Seguro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h1 class="about-title" data-key="who">¿Quiénes Somos?</h1>
+                <h2 class="about-subtitle" data-key="platform">En NutriPlan, somos una plataforma digital que busca mejorar el acceso a planes de nutrición personalizados, ayudando a las personas a llevar una vida más saludable.</h2>
+            </div>
+            <div class="about-image">
+                <img src="img/trabajo.gif" alt="Imagen sobre nosotros" aria-label="Imagen de nuestro equipo NutriPlan" loading="lazy">
+            </div>
+        </div>
+        <div class="mission-vision-wrapper">
+            <div class="mission-block">
+                <h3 data-key="mission">Misión</h3>
+                <p data-key="mission2">Facilitar el acceso a planes nutricionales personalizados a través de una plataforma accesible, que permita a los usuarios llevar una vida más saludable y equilibrada.</p>
+            </div>
+            <div class="vision-block">
+                <h3 data-key="vision">Visión</h3>
+                <p data-key="vision2">Ser una plataforma líder en nutrición digital, ayudando a miles de personas a mejorar su bienestar a través de planes nutricionales adaptados a sus necesidades.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactanos" class="contact-section">
+        <div class="contact-wrapper">
+            <div class="contact-content">
+                <h1 data-key="contactus">Contáctanos</h1>
+                <p data-key="help">Estamos aquí para ayudarte. Si tienes alguna pregunta sobre nuestros planes de nutrición o cómo generar ingresos, no dudes en ponerte en contacto con nosotros.</p>
+                <ul>
+                    <li><strong data-key="phone">Teléfono:</strong> +51 123 456 789</li>
+                    <li><strong>Whatsapp:</strong> +51 987 654 321</li>
+                    <li><strong>Email:</strong> contacto@nutriplan.com</li>
+                    <li><strong data-key="address">Dirección:</strong> Calle Nutri 123, Lima, Perú</li>
+                </ul>
+            </div>
+            <div class="contact-image">
+                <img src="img/contactanos.png" alt="Imagen de contacto" aria-label="Contáctanos para más información" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Videos: Equipo y Producto -->
+<section class="videos-section">
+    <div class="video-item">
+        <h2 class="video-title">Video About The Team</h2>
+        <div class="video-wrapper">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID_EQUIPO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="video-item">
+        <h2 class="video-title">Video About The Product</h2>
+        <div class="video-wrapper">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID_PRODUCTO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Logo NutriPlan" loading="lazy">
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram"><img src="img/ig.png" alt="Instagram" loading="lazy"></a>
+                <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt="Facebook" loading="lazy"></a>
+                <a href="#" aria-label="Youtube"><img src="img/yt.png" alt="Youtube" loading="lazy"></a>
+            </div>
+            <div class="footer-links">
+                <a href="#about-us" data-key="aboutus" aria-label="Ir a la sección Sobre Nosotros">Sobre Nosotros</a>
+                <a href="#contactanos" data-key="contactus" aria-label="Ir a la sección Contáctanos">Contáctanos</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-key="rigths">© 2025 NutriPlan. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
